@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -27,16 +27,16 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="qjd-cd-8HL">
                                 <rect key="frame" x="20" y="72" width="560" height="508"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OzE-AF-loG">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="307"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OzE-AF-loG">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="310"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chucks" translatesAutoresizingMaskIntoConstraints="NO" id="px4-7K-AWb">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="307"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chucks" translatesAutoresizingMaskIntoConstraints="NO" id="px4-7K-AWb">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="310"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w6p-sQ-ja7">
-                                        <rect key="frame" x="0.0" y="322" width="560" height="70"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w6p-sQ-ja7">
+                                        <rect key="frame" x="0.0" y="325" width="560" height="70"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="heR-kw-VIy">
                                                 <rect key="frame" x="0.0" y="0.0" width="104" height="70"/>
@@ -70,13 +70,13 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-zB-p3q">
-                                        <rect key="frame" x="0.0" y="407" width="560" height="21"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-zB-p3q">
+                                        <rect key="frame" x="0.0" y="410" width="560" height="18"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chuck Taylor Shoes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLB-lB-8Tp">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="18"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="5VQ-CG-Ga1"/>
+                                                    <constraint firstAttribute="height" constant="18" id="5VQ-CG-Ga1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="1" green="0.19542181789999999" blue="0.61419679329999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -88,20 +88,20 @@
                                         <rect key="frame" x="0.0" y="443" width="560" height="20"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ref. 7715112 / USA Special Edition" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7G-np-n9r">
-                                                <rect key="frame" x="0.0" y="0.0" width="470" height="20"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="469.5" height="20"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$78.00" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFK-Wa-dhw">
-                                                <rect key="frame" x="470" y="0.0" width="91" height="20"/>
+                                                <rect key="frame" x="469" y="0.0" width="90.5" height="20"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="0.1098521309" green="1" blue="0.173625378" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="skJ-c5-baQ">
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="240" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="skJ-c5-baQ">
                                         <rect key="frame" x="0.0" y="478" width="560" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6z-3H-ZFW">
@@ -121,7 +121,7 @@
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <variation key="heightClass=regular-widthClass=compact" axis="horizontal"/>
+                                        <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
